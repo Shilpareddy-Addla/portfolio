@@ -1,0 +1,64 @@
+body
+{
+background-color: grey;
+
+}
+
+.navigation-link
+{
+    border-bottom: 2px solid transparent;
+    padding:10px 15px;
+    }
+    .navigation-link:hover{
+        text-decoration: none;
+        border-bottom: 2px solid salmon;
+        
+    }
+
+h2,h3,h4{
+
+    text-align: center;
+    
+}
+.demo
+{
+    padding: 170px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+img{
+    padding-top: 30px;
+
+    padding-left: 50px;
+}
+#about{
+    text-transform: capitalize;
+color: turquoise;
+    padding-left: 200px;
+    padding-right: 300px;
+    padding-top: 200px;
+}
+#education{
+    padding-top: 200px;
+
+}
+#education h3{
+    color:burlywood;
+}
+table th,td{
+    border-collapse:collapse;
+    border: 1px solid black;
+    background-color: cadetblue;
+    color:yellow;
+}
+#technical
+{
+    padding-top: 100px;
+}
+#technical h3{
+    color: blue;
+}
+li{
+    color: pink;
+    
+}
