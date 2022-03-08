@@ -1,9 +1,7 @@
 body
 {
 background-color: grey;
-
 }
-
 .navigation-link
 {
     border-bottom: 2px solid transparent;
@@ -12,14 +10,11 @@ background-color: grey;
     .navigation-link:hover{
         text-decoration: none;
         border-bottom: 2px solid salmon;
-        
-    }
-
+        }
 h2,h3,h4{
-
-    text-align: center;
-    
-}
+     text-align: center;
+     justify-content: center;
+    }
 .demo
 {
     padding: 170px;
@@ -28,24 +23,31 @@ h2,h3,h4{
 }
 img{
     padding-top: 30px;
-
     padding-left: 50px;
 }
 #about{
     text-transform: capitalize;
 color: turquoise;
-    padding-left: 200px;
-    padding-right: 300px;
+  /* padding-left: 200px;
+    padding-right: 300px;*/
     padding-top: 200px;
+}
+#about p{
+    display: flex;
+    text-align: center;
 }
 #education{
     padding-top: 200px;
-
 }
 #education h3{
     color:burlywood;
 }
+table{
+    justify-content: center;
+
+}
 table th,td{
+    text-align: center;
     border-collapse:collapse;
     border: 1px solid black;
     background-color: cadetblue;
@@ -60,5 +62,4 @@ table th,td{
 }
 li{
     color: pink;
-    
-}
+    }
